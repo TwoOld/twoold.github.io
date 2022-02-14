@@ -21,7 +21,7 @@
 
 <body>
 	<audio preload autoplay loop id="music">
-		<source src="mp3/樱花樱花想见你-Vk-1.mp3" type="audio/mpeg">
+		<source src="http://haiyong.site/wp-content/uploads/2021/12/樱花樱花想见你-Vk-1.mp3" type="audio/mpeg">
    </audio>
 <div id="mainDiv">
 	<div id="content">
@@ -57,7 +57,7 @@
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					亲爱的，这是我们相爱在一起的时光。
+					这是我们相爱在一起的时光。
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
@@ -69,6 +69,17 @@
 	</div>
 	<div id="copyright">
 		<a onclick="gifts()">click</a>
+	</div>
+</div>
+<div id="modal">
+	<div id="modal-wrapper">
+		<div id="gift">
+			<img src="img/滑雪.jpeg" alt="">
+			<div id="gift-desc">
+				<div>任选一双 2022-2023 新款雪鞋</div>
+				<div style="color:#9c9c9c;font-size:12px;margin-top:8px;">礼物晚一点来，不会缺席哦</div>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -87,7 +98,7 @@
 </script>
 <script type="text/javascript">
     function gifts() {
-                prompt('hello')  
+                $('#modal').fadeIn(500)
         }
 </script>
 <script type="text/javascript">
